@@ -38,7 +38,7 @@ button {
 
 .outer-card {
   background-color: black;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   border-radius: 5px;
   width: 177px;
   height: 105px;
