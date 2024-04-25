@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expense tracker</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="app-body">
+      <header class="header">EXPENSE TRACKER</header>
+      <div class="outer-card">
+        <form id="la-form">
+          <input
+            type="text"
+            placeholder="Item Name eg. Milk"
+            class="item-name"
+          />
+          <input type="float" placeholder="Item Price ($)" class="item-price" />
+          <input type="submit" value="ADD" class="add" />
+        </form>
+      </div>
+
+      <div class="expense-list">
+        <hr />
+
+        <!-- expense list
+        <div class="inner-card">
+          <input type="text" class="item" value="Milk" readonly />
+          <input type="text" class="price" value="$ 3.00" readonly />
+          <input type="button" class="edit-btn" value="EDIT" />
+          <input type="button" class="delete-btn" value="DELETE" />
+        </div>
+        <hr />
+
+         expense list 
+        <div class="inner-card">
+          <input type="text" class="item" value="Milk" readonly />
+          <input type="text" class="price" value="$ 3.00" readonly />
+          <input type="button" class="edit-btn" value="EDIT" />
+          <input type="button" class="delete-btn" value="DELETE" />
+        </div>
+        <hr /> -->
+      </div>
+
+      <!-- total -->
+      <div class="total">
+        <p>
+          <strong
+            >TOTAL EXPENSES:
+            <em><input type="text" class="amount" value="$ 0" readonly /></em
+          ></strong>
+        </p>
+      </div>
+    </div>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
